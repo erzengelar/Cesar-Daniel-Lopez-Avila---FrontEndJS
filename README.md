@@ -5,3 +5,5 @@ Este proyecto es una página web básica desarrollada como parte del curso de Fr
 Se desarrollará como contenido, un catálogo de funcionalidades disponibles via API Rest para un software SAAS en la nube.
 
 Al momento, solo se ha completado los ejercicios básicos de la clase 1.
+
+Se agregó formulario usando FormSpree.
