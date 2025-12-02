@@ -6,12 +6,16 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/styles.css">
         <title>Catálogo</title>
     </head>
     <body>
         <header>
-            <h1>Estás en Catálogo</h1>
+            <div class="logo">
+                <img src="./img/logo.png" alt="logo" height=100px>
+                <h1>ElectroEcommerce</h1> 
+            </div>
             <nav class="nav">
                 <ul>
                     <li><a href="./index.html">Home</a></li>
@@ -21,7 +25,38 @@
                 </ul>
             </nav>
         </header>
-        <h1>Estás en Catálogo</h1>
+        <main>
+            <h1>Catálogo</h1>
+            <section class="productos">
+                <article class="articulo">
+                    <h2>Nombre de Producto</h2>
+                    <img src="./img/foto.jpg" alt="" height=150px>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Precio</p>
+                    <button class="addCarrito">
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                    </button>
+                </article>
+                <article class="articulo">
+                    <img src="" alt="">
+                    <h2>Nombre de Producto</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Precio</p>
+                    <button class="addCarrito">
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                    </button>
+                </article>    
+                <article class="articulo">
+                    
+                    <h2>Nombre de Producto</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Precio</p>
+                    <button>
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                    </button>
+                </article>   
+            </section>
+        </main>
         <footer>
             <p>© 2025 Mi Sitio Web. Todos los derechos reservados.</p>
         </footer>

@@ -1,16 +1,37 @@
 * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid red;*/
+}
+
+body {
     font-family: "Zen Dots", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: white;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a {
     text-decoration: none;
-    
 }
 
 a:visited {
     color: white;
+}
+a:hover {
+    color: yellow;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;  
+    background-color: black;
 }
 
 .nav {
@@ -18,15 +39,58 @@ a:visited {
     color: white;
 }
 
-
-h1 {
-    /*visibility: hidden;*/
-}
-
-p {
-    color: orange;
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row     
 }
 
 li {
+    margin: 5px 10px;
     list-style: none;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*height: 400px;*/
+}
+
+.articulo {
+    font-size: 10px;
+    margin: 10px;
+    height: 300px;
+    width: 200px;
+    background-color: rgba(100, 100, 100, 0.5);
+    padding: 5px;
+    text-align: center;    
+}
+
+.addCarrito {
+    width: 100px;
+    border-radius: 10px;
+    border-color: black;
+}
+.addCarrito:hover {
+    background-color: yellow;
+    color: green;
+}
+
+.addCarrito:active {
+    background-color: green;
+    color: greenyellow;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 10px;
 }
