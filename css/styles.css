@@ -28,7 +28,7 @@ a:hover {
 
 .logo {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: row;  
     background-color: black;
@@ -86,6 +86,17 @@ li {
 .addCarrito:active {
     background-color: green;
     color: greenyellow;
+}
+
+.formulario {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    background-color: rgba(80, 80, 150, 0.8);
+    border-radius: 15px;
 }
 
 footer {
