@@ -4,6 +4,15 @@
     font-style: normal;
 }
 
+a {
+    text-decoration: none;
+    
+}
+
+a:visited {
+    color: white;
+}
+
 .nav {
     background-color: black;
     color: white;
@@ -19,6 +28,5 @@ p {
 }
 
 li {
-    text-decoration: none;
     list-style: none;
 }
