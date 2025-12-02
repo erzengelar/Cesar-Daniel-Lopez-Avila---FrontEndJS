@@ -63,11 +63,14 @@ li {
 .articulo {
     font-size: 10px;
     margin: 10px;
-    height: 300px;
+    /*height: 300px;*/
     width: 200px;
     background-color: rgba(100, 100, 100, 0.5);
     padding: 5px;
     text-align: center;    
+}
+.articulo:hover {
+    background-color: rgba(80, 80, 150, 0.8);
 }
 
 .addCarrito {
@@ -94,3 +97,4 @@ footer {
     color: whitesmoke;
     font-size: 10px;
 }
+
