@@ -88,6 +88,18 @@ li {
     color: greenyellow;
 }
 
+#carrito {
+    text-align: center;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 15px;
+}
+
 .formulario {
     text-align: center;
     margin: 10px;
