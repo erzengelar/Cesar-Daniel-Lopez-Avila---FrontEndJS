@@ -73,17 +73,17 @@ li {
     background-color: rgba(80, 80, 150, 0.8);
 }
 
-.addCarrito {
+.addCarrito, #boton-agregar, #vaciar-carrito {
     width: 100px;
     border-radius: 10px;
     border-color: black;
 }
-.addCarrito:hover {
+.addCarrito:hover, #boton-agregar:hover, #vaciar-carrito:hover {
     background-color: yellow;
     color: green;
 }
 
-.addCarrito:active {
+.addCarrito:active, #boton-agregar:active, #vaciar-carrito:active {
     background-color: green;
     color: greenyellow;
 }
@@ -98,6 +98,7 @@ li {
     justify-content: space-around;
     background-color: rgba(100, 100, 100, 0.5);
     border-radius: 15px;
+    /*font-size: 8px;*/
 }
 
 .formulario {
